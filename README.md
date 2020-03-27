@@ -29,7 +29,7 @@ Install requirements:
 
 ### API
 
-> Change the IP in `./api/api.txt` to your IP where `host='0.0.0.0'`
+> Change the IP in `./api/api.py` to your IP where `host='0.0.0.0'`
 
 Activate virtual env:
 
@@ -41,10 +41,18 @@ Run API:
 
 ### Hardware
 
-> Change the `IPAddress server` for the machine running the API
+> Change the `IPAddress server` for the machine running the API in `./hardware/home_office_status.ino`
 
-Circuit:
+**What you need:**
+* Arduino uno
+* Ethernet shield
+* Potentiometer 10k
+* Display LCD 16x2
+* Resistor 220 ohms
 
+**Circuit:**
 ![Circuit](circuit.png)
+
+![teste](circuit.gif)
 
 
