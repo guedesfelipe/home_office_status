@@ -45,6 +45,6 @@ Run API:
 
 Circuit:
 
-![Circuit](circuit.jpg)
+![Circuit](circuit.png)
 
 
